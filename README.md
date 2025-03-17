@@ -1,8 +1,10 @@
 前置：
 SD-Trainer
 https://github.com/Akegarasu/lora-scripts
+
 PySceneDetect
 https://github.com/Breakthrough/PySceneDetect
+
 python
 
 使用方法：
