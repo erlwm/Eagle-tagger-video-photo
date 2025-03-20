@@ -1,22 +1,27 @@
-前置：
-SD-Trainer
-https://github.com/Akegarasu/lora-scripts
+需要前置：
 
-PySceneDetect
-https://github.com/Breakthrough/PySceneDetect
+wd14-tagger-api-server:https://github.com/daswer123/wd14-tagger-api-server
 
-python
+     该前置程序未提及依赖：
 
-使用方法：
-1.运行搜索主文件，输入库的路径
-2.运行视频场景截图
-3.在SD-Trainer使用wd1.4对库的所有文件打标签
-4.运行合并插入标签
+     cuda 11.8 
+     
+     cudnn 8.5.0 https://developer.nvidia.com/rdp/cudnn-archive
+     
+     numpy 1.24.3
+     
+     zlibwapi.dll
+     
+PySceneDetect：https://github.com/Breakthrough/PySceneDetect
 
-分割场景和插入标签都有记录，不会重复对已运行过的文件重复运行
-SD-Trainer也可以使用跳过已有标签的文件
-视频场景截图内可设置PySceneDetect参数，具体参数参考官方文档
-合并插入标签里可以选择屏蔽某些标签
-Tags-zh.csv可以修改翻译
 
-有没有大佬写个eagle插件啊，完全看不懂web
+将wd14-tagger-api-server文件夹放在本目录内
+
+
+将RUN.bat内"call conda activate "%current_dir%\env"改为进入你创建的虚拟环境的指令
+
+
+使用：
+
+双击RUN.bat
+
