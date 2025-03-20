@@ -18,10 +18,11 @@ PySceneDetect：https://github.com/Breakthrough/PySceneDetect
 将wd14-tagger-api-server文件夹放在本目录内
 
 
+使用：
+
 将RUN.bat内"call conda activate "%current_dir%\env"改为进入你创建的虚拟环境的指令
 
-
-使用：
+按需要修改ini
 
 双击RUN.bat
 
